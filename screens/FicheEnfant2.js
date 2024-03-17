@@ -8,7 +8,8 @@ import { Button, CheckBox } from 'react-native-elements';
 const FicheEnfant = () => {
   const [answers, setAnswers] = useState({});
   const questions = [
-    { id: 1, text: 'هل يقوم الطفل بكتابة الحروف بشكل صحيح ومتقن، أم يظهر تشويش وعدم وضوح في الشكل؟', type: 'dysgraphia' },
+    { id: 1, text: 'هل يقوم الطفل بكتابة الحروف بشكل صحيح ومتقن، أم يظهر تشويش وعدم وضوح في الشكل؟', type:
+     'dysgraphia' },
     { id: 2, text: 'هل يقوم طفلك بتبديل أو تحويل الحروف على سبيل المثال "ر" كـ "ز"', type: 'dysgraphia' },
     { id: 3, text: 'هل يواجه طفلك صعوبة في تفكيك الكلمات إلى كلمات فردية؟', type: 'dyslexia' },
     { id: 4, text: 'هل يمكن للطفل الحفاظ على حجم متساوي للحروف والكلمات على مدى النص؟', type: 'dysgraphia' },
